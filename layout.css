@@ -1,0 +1,109 @@
+.navigation-region {
+    width: 220px;
+    height: 543.9px;
+    background-color: darkgreen;
+    border: 2px solid black;
+    float: left;
+    line-height: 500px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.content-region {
+    margin-left: 240px;
+    border-radius: 20px;
+}
+
+.content-1 {
+    height: 270px;
+    background-color: navy;
+    border: 2px solid black;
+    line-height: 220px;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.content-2 {
+    width: 49%;
+    height: 255px;
+    background-color: navy;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    line-height: 180px;
+    color: white;
+    border-radius: 20px;
+}
+.content-3 {
+    width: 49%;
+    height: 255px;
+    background-color: navy;
+    border: 2px solid black;
+    float: right;
+    text-align: center;
+    line-height: 180px;
+    color: white;
+    border-radius: 20px;
+}
+
+.content-3 {
+    margin-left: 15px;
+    display: inline;
+}
+
+.footer-region {
+    clear: both;
+    height: 145px;
+    background-color: purple;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+img {
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.nd4 {
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 250px;
+    height: 30px;
+    float: right;
+    line-height:1.2;
+    display: block;
+}
+a {
+    color: green; /* màu mặc định */
+  }
+  a:hover {
+    color: blue; /* khi rê chuột */
+  }
+  a:visited {
+    color: white; /* khi đã click */
+  }
+  a:active {
+    color: red; /* khi đang click */
+  }
+img {
+    transition: 0.3s; /* hiệu ứng mượt */
+  }
+img:hover {
+    opacity: 0.7; /* làm mờ khi hover */
+    transform: scale(1.05);
+  }
+
+.de {
+    color: yellow ;
+}
+body {
+    background-color: lightcyan;
+}
